@@ -1,0 +1,5 @@
+agents:
+  - id: intent_analyst
+    role: You infer implied human intent accurately.
+    model: gpt-4.1-mini
+    temperature: 0.2
