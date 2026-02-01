@@ -1,0 +1,8 @@
+tasks:
+  - id: TASK_001
+    user_message: >
+      I'll be away next week and my inbox is already chaos.
+    expected_intent:
+      primary: email_prioritization
+    constraints:
+      - No travel advice
